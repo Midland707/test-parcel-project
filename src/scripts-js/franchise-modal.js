@@ -1,7 +1,7 @@
 (() => {
-  const mobileMenu = document.querySelector('.js-modal-ice-coffee');
-  const openMenuBtn = document.querySelector('.js-modal-ice-coffee-open');
-  const closeMenuBtn = document.querySelector('.js-modal-ice-coffee-close');
+  const mobileMenu = document.querySelector('.js-franchise');
+  const openMenuBtn = document.querySelector('.js-franchise-open');
+  const closeMenuBtn = document.querySelector('.js-franchise-close');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -17,5 +17,5 @@
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
-
-})();
+  
+  })();

@@ -1,4 +1,3 @@
-
 (() => {
   const mobileMenu = document.querySelector('.js-modal-ice-cream');
   const openMenuBtn = document.querySelector('.js-modal-ice-cream-open');
